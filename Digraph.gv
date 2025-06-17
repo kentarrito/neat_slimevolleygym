@@ -1,0 +1,15 @@
+digraph {
+	node [fontsize=9 height=0.2 shape=circle width=0.2]
+	A [fillcolor=lightgray shape=box style=filled]
+	B [fillcolor=lightgray shape=box style=filled]
+	"A XOR B" [fillcolor=lightblue style=filled]
+	1684 [fillcolor=white style=filled]
+	1308 [fillcolor=white style=filled]
+	A -> 1308 [color=green penwidth=0.6859448751063375 style=solid]
+	1308 -> "A XOR B" [color=green penwidth=0.45368159020296783 style=solid]
+	B -> 1308 [color=red penwidth=0.917485666251106 style=solid]
+	A -> "A XOR B" [color=red penwidth=0.486985401347493 style=solid]
+	B -> 1684 [color=green penwidth=0.2936708685635465 style=solid]
+	1684 -> "A XOR B" [color=green penwidth=0.3135911965043313 style=solid]
+	A -> 1684 [color=green penwidth=0.29462656654232733 style=solid]
+}
