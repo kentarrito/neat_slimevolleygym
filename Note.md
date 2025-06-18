@@ -12,3 +12,17 @@ How I made it
 3. added line `from gym.envs.classic_control import rendering` to gym/envs/classic_control/__init__.py
 4. installed pyglet==1.5.27
 
+
+## script description
+
+neat_test3.py: 
+normal evolution from reward/step 
+cold start problem. It didn’t really evolve meaningfully
+
+neat_test4.py:
+add a term from distance between ball and agent
+-> it was a bit better, but still evolve really slowly
+
+neat_test5.py:
+follow policy first
+by setting a proper parameter, it can evolve a bit meaning fully. However, it’s still not as good as it. I think back propagation is needed.
