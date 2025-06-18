@@ -102,7 +102,7 @@ TBD – include a plot or table if available.
 ### 🎞️ GIF Visualization
 
 * The evolved agent chases the ball and reacts to movement.
-* Link to demo (optional): [demo.gif](./slimevolleygym.gif)
+* Link to demo (optional): [demo.gif](./slimevolley.gif)
 
 ### 🔍 Qualitative Summary
 
